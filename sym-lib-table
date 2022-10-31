@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name "LD031A680JAB2A")(type "Legacy")(uri "C:/Users/Lenovo/Desktop/STUDIA/WUThrust/SUAS 2023/Elektronika/CAN/Footprint/LD031A680JAB2A_capacitor/LD031A680JAB2A.lib")(options "")(descr ""))
+  (lib (name "1622830-1")(type "Legacy")(uri "C:/Users/Lenovo/Desktop/STUDIA/WUThrust/SUAS 2023/Elektronika/CAN/Footprint/1622830-1_foot/1622830-1.lib")(options "")(descr "")(disabled))
+  (lib (name "8-2176068-8")(type "Legacy")(uri "C:/Users/Lenovo/Desktop/STUDIA/WUThrust/SUAS 2023/Elektronika/CAN/Footprint/8-2176068-8/8-2176068-8.lib")(options "")(descr "")(disabled))
+  (lib (name "TJA1051TK_3_118")(type "Legacy")(uri "C:/Users/Lenovo/Desktop/STUDIA/WUThrust/SUAS 2023/Elektronika/CAN/Footprint/LIB_TJA1051TK_3,118/TJA1051TK_3,118/KiCad/TJA1051TK_3_118.lib")(options "")(descr "")(disabled))
+  (lib (name "NCV8705MT33TCG")(type "Legacy")(uri "C:/Users/Lenovo/Desktop/STUDIA/WUThrust/SUAS 2023/Elektronika/CAN/Footprint/LIB_NCV8705MT33TCG/NCV8705MT33TCG/KiCad/NCV8705MT33TCG.lib")(options "")(descr "")(disabled))
+  (lib (name "RK73B1JTTD620J")(type "Legacy")(uri "C:/Users/Lenovo/Desktop/STUDIA/WUThrust/SUAS 2023/Elektronika/CAN/Footprint/LIB_RK73B1JTTD620J/RK73B1JTTD620J/KiCad/RK73B1JTTD620J.lib")(options "")(descr "")(disabled))
+  (lib (name "power")(type "KiCad")(uri "${KIPRJMOD}/power.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name "IRFR320TRPBF-BE3")(type "Legacy")(uri "C:/Users/Lenovo/Desktop/STUDIA/WUThrust/SUAS 2023/Elektronika/CAN/Footprint/LIB_IRFR320TRPBF-BE3/IRFR320TRPBF-BE3/KiCad/IRFR320TRPBF-BE3.lib")(options "")(descr "")(disabled))
+  (lib (name "SMBJ64")(type "Legacy")(uri "C:/Users/Lenovo/Desktop/STUDIA/WUThrust/SUAS 2023/Elektronika/CAN/Footprint/SMBJ64/SMBJ64.lib")(options "")(descr ""))
+  (lib (name "3-1879460-5")(type "Legacy")(uri "C:/Users/Lenovo/Desktop/STUDIA/WUThrust/SUAS 2023/Elektronika/CAN/Footprint/3-1879460-5/3-1879460-5.lib")(options "")(descr ""))
+)

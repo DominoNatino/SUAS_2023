@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "1622830-1_foot")(type "KiCad")(uri "C:/Users/Lenovo/Desktop/STUDIA/WUThrust/SUAS 2023/Elektronika/CAN/Footprint/1622830-1_foot")(options "")(descr ""))
+  (lib (name "LIB_IRFR320TRPBF-BE3")(type "KiCad")(uri "C:/Users/Lenovo/Desktop/STUDIA/WUThrust/SUAS 2023/Elektronika/CAN/Footprint/LIB_IRFR320TRPBF-BE3")(options "")(descr ""))
+)

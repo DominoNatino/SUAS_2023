@@ -1065,6 +1065,10 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 0e989cf1-ce1f-46d2-82f1-9b1398c8d5ea)
   )
+  (label "Transistor" (at 118.11 74.93 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid 2f7a3ec6-9cec-4c52-ac14-937db1f4aa4c)
+  )
   (label "CAN_P" (at 201.93 63.5 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 31fe1c24-985e-44c0-b4c7-3b49842cac80)
@@ -1124,11 +1128,6 @@
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 36.2167 49.4675 0)
       (effects (font (size 1 1)) (justify right) hide)
     )
-  )
-
-  (hierarchical_label "First" (shape input) (at 16.51 191.77 0)
-    (effects (font (size 5 5)) (justify left))
-    (uuid 90bb2e61-b3f0-40e5-9027-0081507b9022)
   )
 
   (symbol (lib_id "3-1879460-1:3-1879460-1") (at 41.91 124.46 90) (unit 1)
@@ -2054,6 +2053,24 @@
     (path "/05363226-6472-4658-aff2-c6ad315fe184"
       (reference "#PWR0107") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/9753a417-ebdd-4926-b843-29c9ee0995cc"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/4345867c-fbdb-4544-9393-c738ce29cf5f"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/8d79923b-1390-462f-aa5f-12627d6194eb"
+      (reference "#PWR0110") (unit 1) (value "3.3V") (footprint "")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/1e139b0a-5e9f-49de-83bd-32d90b66d278"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/d6a1068c-da60-4f26-b272-a69dba6b0940"
+      (reference "#PWR0112") (unit 1) (value "3.3V") (footprint "")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/7437f239-4b0b-4b0e-a081-4180de20ebc2"
+      (reference "#PWR0113") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/47f1a27e-e9c3-44f7-a95c-11c2c1def436"
       (reference "C1") (unit 1) (value "10uF") (footprint "SnapEDA Library:CAPC1608X90")
     )
@@ -2093,6 +2110,12 @@
     (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/39fa1b4f-bc30-45d3-a8db-7046a058077d"
       (reference "C13") (unit 1) (value "2.2uF") (footprint "SnapEDA Library:CAPC1608X90")
     )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/26fb6109-f9a1-483e-8722-892e6718f577"
+      (reference "C14") (unit 1) (value "2.2uF") (footprint "SnapEDA Library:CAPC1608X90")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/eaeec0d6-feba-4690-bcee-7efc21cd0ff1"
+      (reference "C15") (unit 1) (value "2.2uF") (footprint "SnapEDA Library:CAPC1608X90")
+    )
     (path "/4c5a3b26-c5fc-4ec8-a374-a75a1e8f35d3"
       (reference "D1") (unit 1) (value "SMBJ64") (footprint "DIOM4336X265N")
     )
@@ -2110,6 +2133,15 @@
     )
     (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/ebccf0e2-82af-4139-9e97-9b063e9ceebb"
       (reference "D6") (unit 1) (value "SMBJ64") (footprint "DIOM4336X265N")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/a4028201-e5d9-4295-bc53-219ba530d00a"
+      (reference "D7") (unit 1) (value "Red") (footprint "LED_SML-D12FWT86")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/e482747f-28b1-4a46-927a-2f5fed51ad9a"
+      (reference "D8") (unit 1) (value "Green") (footprint "LED_SML-D12FWT86")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/ba740146-b83f-4add-a1ee-73c426cec79f"
+      (reference "D9") (unit 1) (value "Blue") (footprint "LED_SML-D12FWT86")
     )
     (path "/753a45f8-7ceb-49d3-9e29-ecbeec71d768"
       (reference "J1") (unit 1) (value "SM04B-GHS-TB(LF)(SN)-") (footprint "SnapEDA Library:JST_SM04B-GHS-TB(LF)(SN)-")
@@ -2134,6 +2166,21 @@
     )
     (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/161bab69-de08-4516-88cf-90a97850de73"
       (reference "R4") (unit 1) (value "1.5K") (footprint "SnapEDA Library:RESC1608X50N")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/bd0a8cf3-b21d-46f9-a4d0-37c36563309b"
+      (reference "R5") (unit 1) (value "100K") (footprint "SnapEDA Library:RESC1608X50N")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/885a4139-562f-4301-8752-db9752677d13"
+      (reference "R6") (unit 1) (value "100K") (footprint "SnapEDA Library:RESC1608X50N")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/d0596217-ae78-47dc-8420-fc23415e4030"
+      (reference "R7") (unit 1) (value "604") (footprint "SnapEDA Library:RESC1608X50N")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/961028c6-4ba3-4ed3-a07c-a5d4c5581dd1"
+      (reference "R8") (unit 1) (value "604") (footprint "SnapEDA Library:RESC1608X50N")
+    )
+    (path "/82810f7f-9499-4602-9be8-4cf6e7e02f75/c64fe9d9-289d-4d12-b123-e918e145e6fe"
+      (reference "R9") (unit 1) (value "330") (footprint "SnapEDA Library:RESC1608X50N")
     )
     (path "/65040185-1a42-4313-8d55-eb71a9980d5a"
       (reference "U1") (unit 1) (value "NCV8705MT33TCG") (footprint "SnapEDA Library:SON65P200X200X80-7N")
